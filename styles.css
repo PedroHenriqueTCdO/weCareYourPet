@@ -70,12 +70,65 @@ p {
 
 .button_explore {
     width: 240px;
-    height: 64px; 
+    height: 64px;
     border-radius: 30px;
     background-color: #ADFF00;
     color: #000000;
     font-size: 28px;
     line-height: 34px;
     font-weight: 700;
+    border: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        display: none;
+    }
+
+    main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image_dog {
+        Width: 354px;
+        Height: auto;
+        margin: 150px auto 30px auto;
+        display: block;
+    }
+
+    .box_wecare {
+        width: 354px;
+        height: auto;
+        
+        
+    }
+
+    .Main_title {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .Secondary_title  {
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        text-align: center;
+        align-content: center;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button_explore {
+        margin: 25px auto;
+    }
 }
